@@ -12,7 +12,13 @@ ul {
   margin-top: 24px;
   padding-left: 0px;
 }
-
+.gallery-image {
+  transition: transform 0.2s ease;
+}
+.gallery-image:hover,
+.gallery-image:focus {
+  transform: scale(1.02);
+}
 .gallery img {
   width: 360px;
   height: 200px;
